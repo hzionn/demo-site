@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+  title: 'Demo Website',
+  description: 'for testing integration with GTM, GA, Mixpanel',
 };
 
 export default function RootLayout({
