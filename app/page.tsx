@@ -16,13 +16,13 @@ export default function Home() {
   return (
     <main className="min-h-screen p-8">
       {/* Hero Section */}
-      <section 
+      <section
         className="text-center py-20"
         data-gtm-section="hero"
       >
         <h1 className="text-4xl font-bold mb-4">Welcome to Our Demo Site</h1>
         <p className="text-xl mb-8">Testing Google Tag Manager Implementation</p>
-        <button 
+        <button
           className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
           data-gtm-element="hero-cta"
           onClick={() => handleClick('hero_cta_click')}
@@ -32,12 +32,12 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section 
+      <section
         className="py-16 grid grid-cols-1 md:grid-cols-3 gap-8"
         data-gtm-section="features"
       >
         {['Feature 1', 'Feature 2', 'Feature 3'].map((feature, index) => (
-          <div 
+          <div
             key={index}
             className="p-6 border rounded hover:shadow-lg cursor-pointer"
             data-gtm-element={`feature-${index + 1}`}
@@ -50,11 +50,11 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section 
+      <section
         className="text-center py-16"
         data-gtm-section="contact"
       >
-        <button 
+        <button
           className="bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600"
           data-gtm-element="contact-button"
           onClick={() => handleClick('contact_button_click')}

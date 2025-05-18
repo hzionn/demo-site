@@ -30,7 +30,7 @@ export default function RootLayout({
       </head>
       <body>
         <noscript>
-          <iframe 
+          <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-W8NTDMWN"
             height="0"
             width="0"
